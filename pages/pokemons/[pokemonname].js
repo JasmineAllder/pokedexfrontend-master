@@ -17,6 +17,9 @@ export default function PokemonPage({details}) {
       <div className="flex flex-col space-y-4">
           <p>Classification: {details.data.classification}</p>
           <p>Generation: {details.data.generation}</p>
+          <p>Height: {details.data.height_m}m</p>
+          <p>Weight: {details.data.weight_kg}kg</p>
+          <p>Attack: {details.data.attack}</p>
       </div> 
     </div>
   )

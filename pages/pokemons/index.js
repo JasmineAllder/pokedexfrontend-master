@@ -12,7 +12,7 @@ export default function Pokemons({pokemonsList}) {
       </Head>
 
       <Title>
-        <span className="text-gray-700 text-xl">List of Pokemons:</span>
+        <span className="text-gray-700 text-xl">List of Pokemon:</span>
       </Title>
       <PokemonList pokemons={pokemonsList} />
     </>

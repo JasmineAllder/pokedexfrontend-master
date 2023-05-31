@@ -48,7 +48,7 @@ function PokemonListItem({ pokemon }) {
 
 export default function PokemonList({ pokemons }) {
   pokemons = pokemons.sort((a,b)=> {
-    if(a.id<b.id){
+    if(a.pokedex_no<b.pokedex_no){
       return-1;
     }
   });
